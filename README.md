@@ -80,8 +80,6 @@ book.lend();   // Book valida y lanza BookNotAvailableException
 Otros refactorings aplicados: *Extract Method* (`findBook`, `ensureIsbnIsUnique`), *Replace Magic Number with Constant*,
 *Introduce Parameter Object* (`LendBookCommand`), *Extract Class* (`PersistenceMapper`).
 
-> ✍️ **Importante para la entrega:** haz commits pequeños que muestren tu refactoring real
-> (por ejemplo `refactor: extract method findBook`). El historial de Git también es evidencia.
 
 ## Cómo ejecutar
 
